@@ -1,7 +1,7 @@
 use std::collections::HashMap;
+use std::fmt;
 use std::io;
 use std::io::BufRead;
-use std::fmt;
 struct SliceDisplay<'a, T: 'a>(&'a [T]);
 
 impl<'a, T: fmt::Display + 'a> fmt::Display for SliceDisplay<'a, T> {
@@ -24,7 +24,7 @@ impl<'a, T: fmt::Display + 'a> fmt::Display for SliceDisplay<'a, T> {
 // Amir to Sales.” Then let the user retrieve a list of all people in a department or all
 // people in the company by department, sorted alphabetically.
 
-pub fn test3(){
+pub fn test3() {
     let mut employees: HashMap<String, Vec<String>> = HashMap::new();
     let stdin = io::stdin();
     println!("Type 'Add <name> to <department>' to add an employee");
