@@ -2,7 +2,7 @@
 #![allow(clippy::all)]
 
 mod ch17;
-// mod ch12;
+mod ch12;
 mod ch8;
 
 // cargo clippy --fix
@@ -13,6 +13,6 @@ mod ch8;
 
 fn main() {
     // ch8::test();
-    // ch12::test();
+    ch12::test();
     println!("Hello, world!");
 }

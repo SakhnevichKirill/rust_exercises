@@ -4,6 +4,8 @@ use std::process;
 mod minigrep;
 
 pub fn test(){
+    
+    // env::set_var("body", "poem.txt");
     let config = minigrep::Config::new(env::args()).unwrap_or_else(|err| {
         eprintln!("Problem parsing arguments: {}", err);
         process::exit(1);

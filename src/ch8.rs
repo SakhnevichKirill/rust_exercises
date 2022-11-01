@@ -8,5 +8,5 @@ pub fn test(){
     mod_struct::test1();
     task1::test1();
     println!("{}", task2::pig_latin("filter"));
-    task3::test3();
+    // task3::test3();
 }

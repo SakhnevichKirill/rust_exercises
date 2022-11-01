@@ -23,7 +23,6 @@ impl<'a, T: fmt::Display + 'a> fmt::Display for SliceDisplay<'a, T> {
 // names to a department in a company. For example, “Add Sally to Engineering” or “Add
 // Amir to Sales.” Then let the user retrieve a list of all people in a department or all
 // people in the company by department, sorted alphabetically.
-
 pub fn test3() {
     let mut employees: HashMap<String, Vec<String>> = HashMap::new();
     let stdin = io::stdin();

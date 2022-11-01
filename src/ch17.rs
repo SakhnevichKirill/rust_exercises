@@ -4,6 +4,7 @@ mod polymorph;
 mod das_blog;
 mod das_rust_blog;
 
+#[test]
 fn test() {
     use avg::*;
 
