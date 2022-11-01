@@ -2,6 +2,7 @@
 #![allow(clippy::all)]
 
 mod ch17;
+mod ch16;
 mod ch12;
 mod ch8;
 
