@@ -42,6 +42,7 @@ pub fn plus_one(x: Option<i32>) -> Option<i32> {
     x.map(|i| i + 1)
 }
 
+
 pub fn test1() {
     let rect1 = Rectangle {
         width: 30,
@@ -65,4 +66,4 @@ pub fn test1() {
     let five = Some(5);
     let _six = plus_one(five);
     let _none = plus_one(None);
-}
+}    
